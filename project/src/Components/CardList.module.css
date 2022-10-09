@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  margin: 10px;
+}
+
+.posts {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .posts {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.date {
+  margin: 10px;
+  font-size: 20px;
+  color: gray;
+}
