@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.bubble {
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.profile {
+  background-image: url("../../public/logo192.png");
+  float: right;
+  border: 1px solid gainsboro;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: 10px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.scheduled {
+  background-color: green;
+}
+
+.published {
+  background-color: gray;
+}
+
+.approval {
+  background-color: orange;
+}
+
+.error {
+  background-color: red;
+}
+
+.notes {
+  background-color: blue;
+}
