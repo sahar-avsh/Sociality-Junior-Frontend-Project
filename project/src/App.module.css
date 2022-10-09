@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 50%;
+}
+
+.main {
+  padding: 10px;
+  background-color: rgb(247, 247, 247);
+}
