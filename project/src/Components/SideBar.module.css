@@ -1,0 +1,154 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.mainMenu {
+  list-style-type: none;
+}
+
+.subMenu {
+  list-style-type: none;
+  display: none;
+  padding-left: 15px;
+}
+
+.mainMenu li {
+  color: white;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mainMenu svg {
+  color: red;
+  margin-right: 15px;
+}
+
+.subMenu li {
+  font-weight: lighter;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  cursor: pointer;
+}
+
+.subMenu li svg {
+  color: white;
+}
+
+.subMenu li:hover {
+  color: red;
+}
+
+.subMenu li:hover svg {
+  color: red;
+}
+
+.container {
+  background-color: rgb(49, 47, 47);
+}
+
+.header {
+  background-color: rgba(20, 19, 19, 0.487);
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid black;
+  font-size: 26px;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+}
+
+.brands {
+  width: 25%;
+  background-color: rgba(6, 6, 6);
+}
+
+.menu {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.expand {
+  float: right;
+  color: black !important;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.showSubMenu {
+  display: block;
+  background-color: rgb(86, 84, 84) !important;
+}
+
+.expanded {
+  background-color: red;
+}
+
+.expanded svg {
+  color: white;
+}
+
+.pill {
+  background-color: transparent;
+  border: 1px solid green;
+  color: white;
+  font-weight: lighter;
+  margin-right: 8px;
+  padding-right: 7px;
+  padding-left: 7px;
+  border-radius: 7px;
+  float: right;
+}
+
+.logo {
+  background-color: white;
+  border-radius: 10px;
+  width: 70%;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.inactive {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.active {
+  border-left: 3px solid red;
+  height: 35px;
+  margin-top: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.wrap {
+  display: flex;
+}
+
+.meta {
+  background-image: url(https://1000logos.net/wp-content/uploads/2021/10/logo-Meta.png);
+}
+
+.heat {
+  background-image: url(https://i.bleacherreport.net/images/team_logos/328x328/miami_heat.png?canvas=492,328);
+}
+
+.nike {
+  background-image: url(https://logos-world.net/wp-content/uploads/2020/04/Nile-Symbol.png);
+}
